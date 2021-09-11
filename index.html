@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXERCISES</title>
+   
+</head>
+<style>
+    #RIGHT {
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        font: normal 300;
+        color: blueviolet;
+        word-spacing: 10px;
+        background-color: yellow;
+        width: 33.33%;
+        float: right;
+        height: 400px;
+        box-shadow: inset;
+        border-radius: 0%;
+        
+    }
+    #CENTER {
+        font-family: 'Times New Roman', Times, serif;
+        background-color:red;
+        font: normal 300;
+        text-align: center;
+        word-spacing: 10px;
+        color: black;
+        width: 33.33%;
+        margin: 0 auto;
+        height: 400px;
+        box-shadow: inset;
+        
+        
+    }
+    #LEFT{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: purple;
+        font: normal 300;
+        text-align: center;
+        word-spacing: 10px;
+        color: azure;
+        width: 33.33%;
+        float: left;
+        box-sizing: border-box;
+        height: 400px;
+        box-shadow: inset;
+        position: fixed;
+        top: 0;
+        
+    }
+
+</style>
+<body>
+    <script src="main.js"></script>
+    <div id="RIGHT" draggable="true" ondragstart="DragEvent(event)" ondragover=DragOver(event)>RIGHT</div> 
+    <div id="CENTER" draggable="true" ondragstart="DragEvent(event)" ondragover="DragOver(event)">CENTER</div>
+    <div id="LEFT" draggable="true" ondragstart="DragEvent(event)" ondragover="DragOver(event)">LEFT</div>
+</body>
+</html>
